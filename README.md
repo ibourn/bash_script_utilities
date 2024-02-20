@@ -1,4 +1,4 @@
-# <div style="text-align: center;"> bash script utilities </div>
+<h1 align="center"> bash script utilities </h1>
 
 <br>
 
@@ -21,4 +21,4 @@ A collection of tools to automate different things. More info in their readme.
 
 ## Links to useful scripts from other dev :
 
-- [shortcut](https://github.com/zakkor/shortcut/blob/master/README.md) : "Quickly make and use shortcuts in your shell for easy navigation"
+- [shortcut](https://github.com/zakkor/shortcut/blob/master/README.md) _from [zakkor](https://github.com/zakkor)_ : "Quickly make and use shortcuts in your shell for easy navigation"
