@@ -120,7 +120,7 @@ If you want to add or remove a working directory use the reset command. It will 
   - Reload or open a new terminal for the script to be taken into account.
 
 - **"i'm in a subdirectory and the command doesn't work"** :
-  - Be sure you specified the subdirectory whith the init command (a .backup file should be in the subdirectory). bak command works only at the root and in the working directories you specified.
+  - Be sure you specified the subdirectory with the init command (a .backup file should be in the subdirectory). bak command works only at the root and in the working directories you specified.
   - Use reset then init commands to add your subdirectory.
 - **"the backup don't exclude things specified in .gitignore"** :
 
@@ -136,8 +136,8 @@ If you want to add or remove a working directory use the reset command. It will 
       /your/Path/To/Bak/bak "$@"
       }
       ```
-      then run `source ~/.bashrc` to aplly changes.
+      then run `source ~/.bashrc` to apply changes.
   - if you didn't follow the process above ([Getting Started](#getting-started)) but only copy the script in your project, you need to replace in your command 'bak' with './bak.sh'
-  - 'bak' commands can only be launched on 2 levels : at the root of the project and in its subfolders that you specify with 'init'
+  - 'bak' commands can only be launched on 2 levels : at the root of the project and in its subfolder that you specify with 'init'
 
 ### _Feel free to explore and suggest improvements!_
